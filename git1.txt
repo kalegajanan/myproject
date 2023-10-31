@@ -13,7 +13,7 @@ git branch -M master
 git push -u origin master
 
 
-ssh
+ssh first time add remote with ssh if ssh configured for laptop in github
 
 …or create a new repository on the command line
 echo "# myproject1" >> README.md
