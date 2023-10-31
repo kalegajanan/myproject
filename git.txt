@@ -1,11 +1,30 @@
-echo "# myproject" >> README.md
+…or create a new repository on the command line
+echo "# myproject1" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M master
-git remote add origin https://github.com/kalegajanan/myproject.git
+git remote add origin https://github.com/kalegajanan/myproject1.git
 git push -u origin master
 
-git remote add origin https://github.com/kalegajanan/myproject.git
+…or push an existing repository from the command line
+git remote add origin https://github.com/kalegajanan/myproject1.git
+git branch -M master
+git push -u origin master
+
+
+ssh
+
+…or create a new repository on the command line
+echo "# myproject1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:kalegajanan/myproject1.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:kalegajanan/myproject1.git
 git branch -M master
 git push -u origin master
